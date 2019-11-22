@@ -1,7 +1,7 @@
 library(ggplot2)
 #script to plot calculated origin rents against ward house price data
 home<-"C:/Users/Robin/work/"
-home <- E:/Arcadia/Data
+home <- E:/Arcadia/
 #this needs to be changed to the Arcadia data location
 # read in price data
 priceData<-read.csv(paste(home,"vonThunen/London_Mean_House_Prices.csv",sep=""))
